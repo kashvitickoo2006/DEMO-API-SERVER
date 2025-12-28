@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>APICALYPSE – Day 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>APICALYPSE – DAY 1</h1>
+        <p class="tagline">
+          From curiosity to creation — build your first real API!
+        </p>
+        <a href="#register" class="btn-primary">Register Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="about">
+        <h2>What is APICALYPSE?</h2>
+        <p>
+          APICALYPSE is a beginner-friendly, hands-on event where you learn how
+          APIs work, how the client talks to the server, and how to build your
+          first simple backend.
+        </p>
+        <p>
+          No prior knowledge required — just your enthusiasm, curiosity, and a
+          laptop!
+        </p>
+      </section>
+
+      <section class="section highlights">
+        <h2>Highlights</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>🔗 APIs Demystified</h3>
+            <p>
+              Understand requests, responses, status codes and how the browser
+              talks to the server.
+            </p>
+          </div>
+          <div class="card">
+            <h3>🛠 Live Demo</h3>
+            <p>
+              Watch a full demo of building a tiny API and connecting it from
+              the frontend.
+            </p>
+          </div>
+          <div class="card">
+            <h3>💻 Hands-On Practice</h3>
+            <p>
+              Try the same on your own system, step by step, with guidance.
+            </p>
+          </div>
+          <div class="card">
+            <h3>📦 Take-Home Code</h3>
+            <p>
+              Leave with a working mini project you can proudly host on GitHub.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="register">
+        <h2>Register for Day 1</h2>
+        <p class="section-subtitle">
+          Fill this form to mark your presence for APICALYPSE – Day 1.
+        </p>
+
+        <form id="registerForm" class="form">
+          <label>
+            Full Name
+            <input type="text" name="name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Branch / Year
+            <input type="text" name="branch" placeholder="CSE 2nd year" />
+          </label>
+
+          <button type="submit" class="btn-primary">Submit</button>
+
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made with ☕ and curiosity – APICALYPSE Day 1</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
